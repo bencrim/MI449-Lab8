@@ -6,36 +6,15 @@ body {
     text-align: center;
 }
 
-nav {
-    margin: 40px auto 0 auto;
-    width: 250px;
-    border-radius: 50px;
-    background: #212431;
-}
-
-nav ul {
+#container {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    list-style-type: none;
-    margin: 0;
-}
-
-nav ul li a {
-    display: inline-block;
-    padding: 20px;
-    color: #EAE8FF;
-    text-decoration: none;
-    font-size: 1.2em;
 }
 
 h1 {
-    font-size: 8em;
-    letter-spacing: -2px;
+    font-size: 3em;
+    margin-bottom: 10px;
 }
 
 h1 strong {
@@ -45,6 +24,6 @@ h1 strong {
     -webkit-text-fill-color: transparent;
 }
 
-img.about {
-    opacity: 0.5;
+h2 {
+    margin-bottom: 5px;
 }
